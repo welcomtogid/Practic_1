@@ -1,0 +1,658 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background: url( https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg) no-repeat center / cover;
+    width: 100%;
+    height: 100vh;
+}
+nav{
+    display: flex;
+    justify-content: space-between; 
+} 
+nav ul{
+    display: flex; 
+    padding: 15px;
+}
+nav ol, ul{
+    list-style: none;
+
+}
+nav ul li{
+    margin: 0 20px;
+}
+nav ol li  a{
+    font-size: 27px;
+    font-weight: bold ;
+    text-decoration: none; 
+    color: white;
+}
+nav ul li a{
+    text-transform: uppercase; 
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+.main_baner{
+    text-align: center;
+    color: white; 
+}
+.main_baner h2{
+    font-weight: 100;
+    font-size: 45px;
+}
+.main_baner h1{
+    font-weight: bold;
+    font-size: 60px;
+}
+.main_baner a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    padding: 15px 20px ;
+    background-color: gold;
+    border-radius: 5px;
+    border: 0;
+
+}
+.main_baner a:hover{
+    text-decoration: underline; 
+    
+}
+
+/* main */
+
+.title{
+    text-align: center; 
+    color: black; 
+}
+.title h1{
+    font-size: 40px;
+}
+.title_ p{
+    text-align: center;
+}
+.title_ h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+.title_ p{
+    color: black; 
+} 
+.block_flex{
+    display: flex;  
+}
+.services_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    margin-top: 50px;
+    text-align: center; 
+    
+}
+.img_block{
+    padding: 25px;
+    width: 100px;
+    margin: 0 auto;
+    background: gold;
+    border-radius: 50%;
+}
+.img_block img{
+    width: 100px;
+}
+.services_card p{
+    color: gray; 
+}
+.services_card{
+    margin: 0 20px;
+}
+/* Portfolio */
+
+.Portfolio{
+    background-color: whitesmoke;
+}
+.portfolio_container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.box{
+    margin: 20px 20px;
+    text-align: center;
+    background-color: white;
+}
+.box img{
+    width: 350px;
+}
+
+/* about_contenner */
+
+.about_countener{
+    width: 70%; 
+    margin: 0 auto;
+}
+.circle img{
+    margin: 0 20px;
+}
+.about_card{
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+} 
+.about_card{
+    margin: 0 20px;
+
+}
+hr{
+    border: 1px dashed gray;
+}
+.text{
+    text-align: right;
+    width: 400px;
+}
+ 
+.text2{
+    text-align: left;
+    width: 400px;
+}
+.circle img{
+    width: 250px;
+    border-radius: 100%;
+    border: 5px solid gray;
+}
+
+/* team */
+
+.team{ 
+    padding-bottom: 50px;
+    margin-top: 40px;
+    background-color: whitesmoke;
+}
+.icon i{
+    padding: 5px 15px;
+    background-color: rgb(0, 0, 0);
+    font-size: 25px;
+    border-radius: 50%;
+    margin: 0 15px;
+    color: gold;
+}
+.block{
+    text-align: center;
+}
+.team_content{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap  ; 
+}
+.block img{
+    width: 250px;
+    border-radius: 100%;
+    border: 5px solid gainsboro;
+}
+
+/* !!!!!!!!!!!!! */
+
+.partner{
+    background-color: white;
+    height: 250px;
+    padding: 50px 0;
+}
+.part_countener{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around   ; 
+}
+.part_countener div a img{
+    width: 250px;
+    height: 200px;
+} 
+
+/* reg */
+
+.reg{
+    width: 100%;
+    height: 100vh;
+    background: url("https://cdnb.artstation.com/p/assets/images/images/000/155/485/large/peter-boehme-n0dew0rld-map.jpg?1443928352") center / cover ;
+} 
+.title_4{
+    text-align: center;
+}
+.title_4 h1{
+    font-size: 45px;
+    color: white;
+    padding-top: 40px;
+}
+
+.title_4 p{
+    font-size: 20px;
+    color: white;
+}
+/* .inputs{
+    padding: 23px 140px;
+    outline: 0;
+    border-radius: 10px;
+    margin-bottom: 18px;
+    margin-right: 15px;
+} */
+
+
+.reg_count{ 
+    width: 80%;
+    margin: 0 auto;
+}
+.inline{
+    display: flex;
+}
+.inline div{
+    width: 100%;
+}
+.form_inputs input{
+    width: 80%;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+}
+.feebback textarea  {
+    width: 80%;
+    height: 157px;
+    margin: 10px 0;
+    padding: 25px;
+    border-radius: 5px;
+    border: 0;
+}
+.bottom{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.knopca{
+    padding: 12px 19px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* 
+media.block_flex{
+    display: flex; 
+}
+*/
+
+@media screen and (max-width: 1000px){ 
+    .title h1{ 
+        font-size: 35px;
+    }
+    .title p{
+        font-size: 16px; 
+    }
+    .inputs{
+        padding: 20px 120px;
+        outline: 0; 
+        margin-right: 12px;
+    }
+     
+    .bottom{
+        margin-top: 18px; 
+    }     
+    
+    .partner{ 
+        height: 200px;
+        padding: 20px 0;
+    } 
+    .part_countener div a img{
+        width: 200px;
+        height: 150px;
+    }
+    .title_4 h1{
+        font-size: 40px; 
+        padding-top: 40px;
+    }
+    
+    .title_4 p{
+        font-size: 15px;
+        color: white;
+    }
+}
+@media screen and (max-width: 840px){  
+    .block img{
+        width: 200px; 
+        margin-top: 20px;
+    }
+    .block h1{
+        font-size: 20px;
+    }
+    .block p{
+        font-size: 13px;
+    }
+    .icon i{
+        padding: 5px 12px; 
+        font-size: 15px; 
+        margin: 0 10px; 
+    }
+    .title_4 h1{
+        font-size: 37px; 
+        padding-top: 40px;
+    }
+    
+    .title_4 p{
+        font-size: 13px;    
+    }
+    .inputs{
+        padding: 18px 110px; 
+        margin-right: 12px;
+    }
+}
+@media screen and (max-width: 780px){
+    .partner{ 
+        height: 100px;
+        padding: 15px 0;
+    } 
+    .part_countener div a img{
+        width: 150px;
+        height: 100px;
+    }
+    header nav ul{
+        display: none;
+    }
+    .main_baner h2{
+        font-weight: 70;
+        font-size: 28px;
+    }
+    .main_baner h1{ 
+        font-size: 33px;
+    } 
+     
+    header{ 
+        height: 80vh;
+    }
+    nav ol li  a{
+        font-size: 20px; 
+    } 
+    .text2{
+        text-align: left;
+        width: 40%;
+    }
+    .circle img{
+        width: 200px; 
+    }
+    .text h1{
+        font-size: 20px;
+    }
+    .text h2{
+        font-size: 20px;
+    }
+    .text p{
+        font-size: 12px;
+    }
+    .text2 p{
+        font-size: 12px;
+    }
+    .text2 h1{
+        font-size: 20px;
+    }
+    .text2 h2{
+        font-size: 20px;
+    }
+    .title_4 h1{
+        font-size: 33px; 
+        padding-top: 40px;
+    }
+    
+    .title_4 p{
+        font-size: 12px;
+        color: white;
+    }
+    .inputs{
+        padding: 16px 107px; 
+        margin-right: 12px;
+    }
+}
+@media screen and (max-width: 640px){
+    .part_countener div a img{
+        width: 120px;
+        height: 80px;
+    }
+    .partner{ 
+        height: 80px;
+        padding: 15px 0;
+    } 
+    .circle img{
+        width: 170px; 
+        margin: 0 20px;
+    }
+    .about_countener{
+        width: 70%; 
+        margin: none;
+    }
+    .about{
+        text-align: center;
+    }
+    .title_4 h1{
+        font-size: 30px; 
+        padding-top: 40px;
+    }
+    
+    .title_4 p{
+        font-size: 10px; 
+    }
+    .inputs{
+        padding: 14px 104px; 
+        margin-right: 12px;
+    }
+    .reg{
+        width: 100%;
+        height: 83vh; 
+    }
+}
+@media screen and (max-width: 585px){
+    .partner{ 
+        height: 70px;
+        padding: 15px 0;
+    } 
+    .part_countener div a img{
+        width: 100px;
+        height: 60px;
+    }
+    .form_inputs input{
+        width: 70%;
+        padding: 10px;
+        margin: 10px 0; 
+    }
+    .feebback textarea  {
+        width: 80%;
+        height: 127px;
+        margin: 10px 0;
+        padding: 10px; 
+    }  
+    .main_baner h2{
+        font-weight: 60;
+        font-size: 23px;
+    }
+    .main_baner h1{ 
+        font-size: 25px;
+    } 
+    .main_baner a{ 
+        font-size: 17px;
+        padding: 10px 15px ; 
+    }
+    nav ol li  a{
+        font-size: 17px; 
+    } 
+    .about_countener{
+        width: 70%; 
+    }
+    .text{
+        text-align: right;
+        width: 500px;
+        height: auto;
+    }
+     
+    .text2{
+        text-align: left;
+        width: 500px;
+    }
+    .text h1{
+        font-size: 18px;
+    }
+    .text2 h1{
+        font-size: 18px;
+    }
+    .text h2{
+        font-size: 15px;
+    }
+    .text p{
+        font-size: 10px;
+    }
+    .text2 h2{
+        font-size: 15px;
+    }
+    .text2 p{
+        font-size: 10px;
+    }
+    .title h1{
+        font-size: 25px;
+    }
+    .title_4 h1{
+        font-size: 28px; 
+        padding-top: 40px;
+    }
+    
+    .title_4 p{
+        font-size: 10px;
+        color: white;
+    }
+    .knopca{
+        padding: 10px 15px;  
+        font-size: 11px;
+    }
+    .inputs{
+        padding: 12px 100px; 
+        margin-right: 12px;
+        font-size: 13px;
+    }
+    .reg{
+        width: 100%;
+        height: 70vh; 
+    }
+}
+@media screen and (max-width: 480px){
+    .text p{
+        font-size: 8px;
+    }
+    .text2 p{
+        font-size: 8px;
+    }
+    .title_4 h1{
+        font-size: 26px; 
+        padding-top: 40px;
+    } 
+    .inputs{
+        padding: 9px 100px; 
+        margin-right: 12px;
+        font-size: 10px;
+    }
+    .feebback textarea  {
+        width: 80%;
+        height: 117px;
+        margin: 10px 0;
+        padding: 10px; 
+    } 
+    .reg{
+        width: 100%;
+        height: 70vh; 
+    }
+}
+@media screen and (max-width: 400px){
+    .partner{ 
+        height: 60px;
+        padding: 15px 0;
+    } 
+    .part_countener div a img{
+        width: 75px;
+        height: 50px;
+    }
+    nav ol li  a{
+        font-size: 15px; 
+    }  
+    .main_baner h2{ 
+        font-size: 18px;
+    }
+    .main_baner h1{ 
+        font-size: 25px;
+    }
+    .main_baner a{ 
+        font-size: 15px;
+        padding: 10px 15px ;  
+    
+    }
+    .text p{
+        font-size: 7px;
+    }
+    .text2 p{
+        font-size: 7px;
+    }
+    .title_4 h1{
+        font-size: 23px; 
+        padding-top: 40px;
+    }
+    
+    .title_4 p{
+        font-size: 9px; 
+    }
+}
+
+@media screen and (max-width: 360px){ 
+    .box{
+        margin: 0px 0px; 
+    }
+    .box img{
+        width: 300px;
+    }
+    .box h1{
+        font-size: 20px;
+    }
+    .box p{
+        font-size: 15px;
+    }
+    .title h1{
+        font-size: 25px;
+    } 
+    .text h1{
+        font-size: 16px;
+    }
+    .text2 h1{
+        font-size: 16px;
+    }
+    .text h2{
+        font-size: 13px;
+    }
+    .text p{
+        font-size: 9px;
+    }
+    .text2 h2{
+        font-size: 13px;
+    }
+    .text2 p{
+        font-size: 9px;
+    }
+    .title h1{
+        font-size: 23px;
+    }
+    .title_4 h1{
+        font-size: 20px; 
+        padding-top: 40px;
+    } 
+    .knopca{
+        padding: 10px 15px;  
+        font-size: 9px;
+    }
+} 
